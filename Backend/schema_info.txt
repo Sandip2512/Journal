@@ -1,0 +1,19 @@
+Column               | Type                
+----------------------------------------
+id                   | INTEGER             
+user_id              | VARCHAR(6)          
+ticket               | INTEGER             
+symbol               | VARCHAR             
+volume               | DOUBLE PRECISION    
+price_open           | DOUBLE PRECISION    
+price_close          | DOUBLE PRECISION    
+type                 | VARCHAR             
+take_profit          | DOUBLE PRECISION    
+stop_loss            | DOUBLE PRECISION    
+profit_amount        | DOUBLE PRECISION    
+loss_amount          | DOUBLE PRECISION    
+net_profit           | DOUBLE PRECISION    
+reason               | VARCHAR             
+mistake              | VARCHAR             
+open_time            | TIMESTAMP           
+close_time           | TIMESTAMP           
